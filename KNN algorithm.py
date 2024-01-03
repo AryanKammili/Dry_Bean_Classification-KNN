@@ -29,7 +29,7 @@ timesWrong = 0
 
 for i in range(len(x)):
     actual = beanTypes[cls[i]]
-    predicted = beanTypes[predictions[i]]\
+    predicted = beanTypes[predictions[i]]
 
     print("Actual: ", actual, ". Predicted: ", predicted)
 
